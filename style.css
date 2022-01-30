@@ -1,63 +1,162 @@
-
-.container{
-    padding: 20px 0 20px 0
-    width: 75%;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
 }
-/* {
-    padding: 20px;
-} */
-
-main .row-1 h2{
-    font-weight: 100;
-    font-size: xx-large;
-    padding-right: 5px;
+.container {
+  width: auto;
+  margin: auto;
+  background-color: black;
+  color: white;
 }
-.row-2{
-    padding: 20px 0 20px 0;
-    display: flex;
-    justify-content: space-between;
+header {
+  width: 1140px;
+  margin: auto;
+  padding: 30px 0;
+  font-family: inter;
+  display: flex;
+  justify-content: space-between;
 }
-.row-3{
-    display: flex;
-    justify-content: space-between;
+.logo {
+  font-family: prata;
+  padding: 10px 0;
 }
-.row-3-col{
-    width: 50%;
+.logo a{
+  text-decoration: none;
 }
-.row-3-col img{
-    padding: 20px;
+nav {
+  padding: 0 20px;
 }
-.row-3-col img h1{
-    padding: 20px;
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  /* padding: 10px 0; */
+}
+.getintouch button {
+  padding: 10px;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
 }
 
-
-
-
-
-
-
+/* ///////////////////////////////////////// */
+section {
+  width: 1140px;
+  margin: auto;
+}
+.caption {
+  width: 55%;
+  padding: 20px 0;
+}
+.caption h1 {
+  font-family: prata;
+  font-size: xxx-large;
+  font-weight: lighter;
+}
+.caption p {
+  font-family: inter;
+  font-size: medium;
+  width: 95%;
+  padding: 10px 0;
+}
+.nav-bar {
+  padding: 20px 0px;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+}
+.services{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.services_info{
+  width: 530px;
+}
+.services_info h1{
+  font-family: prata;
+  padding: 10px 0;
+  font-size: xx-large;
+  font-weight: lighter;
+}
+.services_info i{
+  color: white;
+}
+.services_info p{
+  font-family: inter;
+  padding: 10px 0;
+  font-weight: normal;
+  font-size: larger;
+}
+.container2{
+  background-color: #2e3038;
+}
+article{
+display: flex;
+justify-content: space-between;
+padding: 40px 0;
+width: 1140px;
+margin: auto;
+}
+.article_info{
+  width: 530px;
+}
+.article_info h1{
+  font-family: prata;
+  font-size: xx-large;
+  word-spacing: 3px;
+  font-weight: lighter;
+  /* width: 530px; */
+}
+.article_info p{
+  font-family: inter;
+  padding: 10px 0;
+  font-weight: normal;
+  font-size: larger;
+}
+aside{
+  width: 1140px;
+  margin: auto;
+  padding: 40px 0;
+}
+aside h1{
+  width: 530px;
+  font-family: prata;
+  font-size: xx-large;
+  word-spacing: 3px;
+  font-weight: lighter;
+}
+aside p{
+  width: 530px;
+  font-family: inter;
+  padding: 10px 0;
+  font-weight: normal;
+  font-size: larger;
+}
+.getintouch button{
+  border-radius: 0px;
+}
 /* footer */
 
-.foot{
-    display: flex;
-    justify-content: space-between;
-    padding:0 60px 0 60px;
-}
-
-
-.social-links ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-.foot span{
-    padding: 5px;
-}
-.social-links ul li a{
-    text-decoration: none;
-    padding: 15px;
-}
-.social-links ul li a svg{
-    /* padding: 20px; */
+footer{
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: auto;
 }
