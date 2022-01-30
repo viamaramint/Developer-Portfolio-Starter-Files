@@ -3,15 +3,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    
 }
 body{
+    background-color: black;
+    color: white;
+
+}
+.main{
     width: 1140px;
     margin: auto;
 }
 /* navigation bar */
 header{
+    width: 1140px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
@@ -78,4 +84,25 @@ main .row-2{
     font-size: small;
     padding-right: 145px;
 }
+.row-4{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color: #7c7890;
 
+}
+.row-4 h1{
+    font-family: prata;
+    background-color: #7c7890;
+
+}
+.row-4 .row-4-col{
+    width: 530px;
+}
+.row-4 .row-4-col p{
+    font-family: inter;
+    font-weight: lighter;
+    font-size: small;
+    padding-right: 145px;
+}
